@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Registration Form</title>
+</head>
+<body>
+<form method="post" action="form_action.jsp">
+
+<h2><strong> Student Registration Form </strong></h2>
+<table>
+    <tr>
+       <td>First Name: <input name="firstName" type="text" placeholder="Firstname" required></td></tr>
+    <tr>
+        <td>Last Name: <input name="lastName" type="text" placeholder="Lastname"></td></tr>
+    <tr>
+        <td>Gender:
+        Male <input name = "gender" type = "radio" value="male">
+            Female <input name="gender" type="radio" value="female"></td>
+    </tr>
+    <tr>
+        <td>Residential Address: <input name="address" type="text" placeholder="Address"></td></tr>
+    <tr>
+        <td>Phone Number: <input name="phoneNo" type="text" placeholder="Phone Number" required></td></tr>
+    <tr>
+        <td>Select Course: </td>
+    <td>
+        <select name="course">
+
+            <option value="1">Java</option>
+            <option value="2">Python</option>
+            <option value="3">Perl</option>
+        </select>
+    </td>
+    </tr>
+    <tr>
+        <td><input type="submit" name="submit" value="submit"></td></tr>
+
+
+</table>
+</form>
+</body>
+</html>
